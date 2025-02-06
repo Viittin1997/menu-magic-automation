@@ -3,6 +3,7 @@ import Problems from "@/components/Problems";
 import Features from "@/components/Features";
 import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
+import Testimonials from "@/components/Testimonials";
 
 const Index = () => {
   return (
@@ -10,6 +11,7 @@ const Index = () => {
       <Hero />
       <Problems />
       <Features />
+      <Testimonials />
       <Pricing />
       <FAQ />
     </main>

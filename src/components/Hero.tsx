@@ -6,10 +6,10 @@ const Hero = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col items-center text-center gap-6 animate-fadeIn">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-            Automatize seu delivery e venda mais no WhatsApp
+            Pedidos organizados, atendimento rápido e clientes fiéis!
           </h1>
           <h2 className="text-xl md:text-2xl max-w-3xl opacity-90">
-            Robô de atendimento, cardápio digital, pagamentos online e programa de fidelidade por um preço acessível.
+            Atendimento automático no WhatsApp, cardápio digital e impressão de pedidos sem complicação.
           </h2>
           <Button 
             size="lg" 
