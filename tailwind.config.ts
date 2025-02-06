@@ -78,7 +78,7 @@ export default {
         fadeIn: "fadeIn 0.5s ease-out forwards",
       },
       backgroundImage: {
-        "gradient-primary": "linear-gradient(135deg, #0EA5E9 0%, #22D3EE 100%)",
+        "gradient-primary": "linear-gradient(135deg, #0284C7 0%, #0EA5E9 100%)",
       },
     },
   },
