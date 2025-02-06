@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { CheckCircle2, Users, Bot, HeadsetIcon } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -18,10 +19,19 @@ const Hero = () => {
           >
             ✨ Teste grátis por 7 dias
           </Button>
-          <div className="flex flex-col md:flex-row gap-4 mt-4 text-sm opacity-90">
-            <span>✅ Já ajudamos centenas de deliverys</span>
-            <span>✅ Atendimento 100% automatizado</span>
-            <span>✅ Suporte técnico 24 horas</span>
+          <div className="flex flex-col md:flex-row gap-6 mt-6 text-base md:text-lg opacity-90">
+            <span className="flex items-center gap-2">
+              <Users className="w-6 h-6" />
+              Já ajudamos centenas de deliverys
+            </span>
+            <span className="flex items-center gap-2">
+              <Bot className="w-6 h-6" />
+              Atendimento 100% automatizado
+            </span>
+            <span className="flex items-center gap-2">
+              <HeadsetIcon className="w-6 h-6" />
+              Suporte técnico 24 horas
+            </span>
           </div>
         </div>
       </div>
