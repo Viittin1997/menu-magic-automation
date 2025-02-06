@@ -19,7 +19,11 @@ const Pricing = () => {
             </div>
           </div>
 
-          <Button size="lg" variant="secondary" className="text-primary-500 font-semibold">
+          <Button 
+            size="lg" 
+            variant="secondary"
+            className="text-white font-semibold shadow-lg hover:scale-105 transition-transform"
+          >
             🔥 Comece agora com 7 dias grátis!
           </Button>
           

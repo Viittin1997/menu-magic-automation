@@ -11,7 +11,11 @@ const Hero = () => {
           <h2 className="text-xl md:text-2xl max-w-3xl opacity-90">
             Robô de atendimento, cardápio digital, pagamentos online e programa de fidelidade por um preço acessível.
           </h2>
-          <Button size="lg" variant="secondary" className="text-primary-500 font-semibold text-lg">
+          <Button 
+            size="lg" 
+            variant="secondary"
+            className="text-white font-semibold text-lg shadow-lg hover:scale-105 transition-transform"
+          >
             ✨ Teste grátis por 7 dias
           </Button>
           <div className="flex flex-col md:flex-row gap-4 mt-4 text-sm opacity-90">
