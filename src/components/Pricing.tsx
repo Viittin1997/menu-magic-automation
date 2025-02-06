@@ -57,15 +57,15 @@ const Pricing = () => {
             <CardHeader>
               <h3 className="text-2xl font-bold">Anual</h3>
               <p className="text-3xl font-bold mt-4">
-                R$126,57<span className="text-xl font-normal">/mês</span>
+                R$77,94<span className="text-xl font-normal">/mês</span>
               </p>
-              <p className="text-sm mt-2">R$40 de desconto no total</p>
+              <p className="text-sm mt-2">40% de desconto no total</p>
             </CardHeader>
             <CardContent className="text-left">
               <ul className="space-y-2">
                 <li>✅ Todas as funcionalidades</li>
                 <li>✅ Suporte 24/7</li>
-                <li>✅ Economia de R$40,00</li>
+                <li>✅ Economia de R$623,52</li>
               </ul>
             </CardContent>
             <CardFooter>
