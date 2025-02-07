@@ -1,3 +1,4 @@
+
 import {
   Accordion,
   AccordionContent,
@@ -12,8 +13,8 @@ const FAQ = () => {
       answer: "Nosso robô responde automaticamente as mensagens dos clientes, envia o cardápio digital e processa os pedidos sem intervenção manual.",
     },
     {
-      question: "Posso personalizar o cardápio digital?",
-      answer: "Sim! Você pode personalizar cores, categorias, produtos, preços e promoções facilmente através do painel administrativo.",
+      question: "Posso fazer alterações no cardápio?",
+      answer: "Sim, nosso sistema foi feito de forma muito simples para facilitar a alteração de qualquer item do cardápio de maneira prática.",
     },
     {
       question: "O sistema funciona para qualquer tipo de delivery?",
@@ -21,11 +22,11 @@ const FAQ = () => {
     },
     {
       question: "Como funciona o programa de fidelidade?",
-      answer: "Os clientes acumulam pontos em cada compra que podem ser trocados por descontos ou produtos. Você define as regras e recompensas.",
+      answer: "Você define um valor de pedido, em que, acima desse valor o cliente recebe um ponto, e ao atingir os pontos necessários, que também são configurados por você, ele recebe o prêmio em forma de cupom de desconto. Todos os valores são configuráveis.",
     },
     {
       question: "O pagamento online é seguro?",
-      answer: "Sim, utilizamos gateways de pagamento certificados e seguros para processar Pix, cartões e boletos.",
+      answer: "Sim, utilizamos gateways de pagamento certificados e seguros para processar o Pix",
     },
   ];
 

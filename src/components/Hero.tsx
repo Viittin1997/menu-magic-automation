@@ -38,7 +38,7 @@ const Hero = () => {
                 variant="outline"
                 className="bg-white/10 hover:bg-white/20 text-white border-white font-semibold text-lg w-full"
               >
-                Ver demonstração
+                Ver cardápio demonstração
               </Button>
             </a>
           </div>
@@ -56,6 +56,9 @@ const Hero = () => {
               Suporte técnico 24 horas
             </span>
           </div>
+          <p className="text-xl md:text-2xl mt-8 font-semibold bg-white/10 p-6 rounded-lg max-w-4xl">
+            Nosso sistema serve para você que não tem nenhuma noção de informática, temos um treinamento apesar de ser tudo bem prático e simples para resolver seu problema!
+          </p>
         </div>
       </div>
     </section>
