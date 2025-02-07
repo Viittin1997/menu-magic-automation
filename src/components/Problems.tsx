@@ -1,3 +1,4 @@
+
 const Problems = () => {
   const problems = [
     {
@@ -19,6 +20,16 @@ const Problems = () => {
       icon: "🔴",
       title: "Sem controle financeiro",
       description: "Você não sabe exatamente o que entra e sai do seu negócio.",
+    },
+    {
+      icon: "🔴",
+      title: "Mensagens repetitivas",
+      description: "Seu WhatsApp está cheio de mensagens repetitivas como \"Qual o cardápio?\", \"Tem taxa de entrega?\" e \"Qual a forma de pagamento?\", fazendo você perder tempo com respostas manuais?",
+    },
+    {
+      icon: "🔴",
+      title: "Dificuldade para aumentar vendas",
+      description: "Sem um sistema para incentivar recompras e fidelizar clientes, seu delivery pode estar perdendo oportunidades de faturamento.",
     },
   ];
 
