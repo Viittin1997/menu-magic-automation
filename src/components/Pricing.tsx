@@ -1,9 +1,10 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
 
 const Pricing = () => {
   return (
-    <section className="py-20 px-4 bg-gradient-primary text-white">
+    <section className="py-20 px-4 bg-gradient-to-r from-[#C14444] to-[#E47777] text-white">
       <div className="container mx-auto max-w-6xl text-center">
         <h2 className="text-3xl font-bold mb-12">Planos e Preços</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -22,15 +23,15 @@ const Pricing = () => {
               </ul>
             </CardContent>
             <CardFooter>
-              <Button variant="secondary" className="w-full text-white">
+              <Button className="w-full bg-green-500 hover:bg-green-600 text-white">
                 Começar agora
               </Button>
             </CardFooter>
           </Card>
 
-          <Card className="bg-white/10 backdrop-blur-sm transform scale-105 border-2 border-secondary">
+          <Card className="bg-white/10 backdrop-blur-sm transform scale-105 border-2 border-white">
             <CardHeader>
-              <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-secondary text-white px-4 py-1 rounded-full text-sm">
+              <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-green-500 text-white px-4 py-1 rounded-full text-sm">
                 Mais vantajoso
               </div>
               <h3 className="text-2xl font-bold">Semestral</h3>
@@ -47,7 +48,7 @@ const Pricing = () => {
               </ul>
             </CardContent>
             <CardFooter>
-              <Button variant="secondary" className="w-full text-white font-semibold shadow-lg hover:scale-105 transition-transform">
+              <Button className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold shadow-lg hover:scale-105 transition-transform">
                 🔥 Melhor escolha
               </Button>
             </CardFooter>
@@ -69,7 +70,7 @@ const Pricing = () => {
               </ul>
             </CardContent>
             <CardFooter>
-              <Button variant="secondary" className="w-full text-white">
+              <Button className="w-full bg-green-500 hover:bg-green-600 text-white">
                 Começar agora
               </Button>
             </CardFooter>
