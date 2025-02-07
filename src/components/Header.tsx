@@ -37,7 +37,7 @@ const Header = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Button className="bg-green-500 hover:bg-green-600 text-white">
+          <Button className="bg-green-700 hover:bg-green-800 text-white">
             Começar agora <ChevronRight className="w-4 h-4" />
           </Button>
         </a>
@@ -47,3 +47,4 @@ const Header = () => {
 };
 
 export default Header;
+

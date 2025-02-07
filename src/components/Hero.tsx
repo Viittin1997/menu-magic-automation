@@ -22,7 +22,7 @@ const Hero = () => {
             >
               <Button 
                 size="lg" 
-                className="bg-green-500 hover:bg-green-600 text-white font-semibold text-lg shadow-lg hover:scale-105 transition-transform w-full"
+                className="bg-green-700 hover:bg-green-800 text-white font-semibold text-lg shadow-lg hover:scale-105 transition-transform w-full"
               >
                 ✨ Teste grátis por 7 dias <ChevronRight className="w-5 h-5" />
               </Button>
@@ -66,3 +66,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
