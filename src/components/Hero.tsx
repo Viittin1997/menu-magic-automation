@@ -15,7 +15,7 @@ const Hero = () => {
           </h2>
           <div className="w-full max-w-2xl aspect-video rounded-lg overflow-hidden shadow-xl">
             <iframe
-              src="https://www.youtube.com/embed/UueBZ6kVqTE?autoplay=1&mute=1"
+              src="https://www.youtube.com/embed/UueBZ6kVqTE?autoplay=1&volume=50"
               title="MeuMenu App - Sistema para Delivery"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
