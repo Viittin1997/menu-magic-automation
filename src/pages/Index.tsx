@@ -6,6 +6,7 @@ import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
 import Testimonials from "@/components/Testimonials";
 import Header from "@/components/Header";
+import CTABanner from "@/components/CTABanner";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <main className="min-h-screen bg-white">
         <Hero />
         <Problems />
+        <CTABanner />
         <Features />
         <Testimonials />
         <Pricing />
