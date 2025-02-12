@@ -7,6 +7,7 @@ import FAQ from "@/components/FAQ";
 import Testimonials from "@/components/Testimonials";
 import Header from "@/components/Header";
 import CTABanner from "@/components/CTABanner";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -21,6 +22,7 @@ const Index = () => {
         <Pricing />
         <FAQ />
       </main>
+      <Footer />
     </>
   );
 };
