@@ -13,6 +13,15 @@ const Hero = () => {
           <h2 className="text-xl md:text-2xl max-w-3xl opacity-90">
             Pare de perder vendas, e aumente a recorrência de pedidos dos seus clientes
           </h2>
+          <div className="w-full max-w-2xl aspect-video rounded-lg overflow-hidden shadow-xl">
+            <iframe
+              src="https://www.youtube.com/embed/UueBZ6kVqTE?autoplay=1&mute=1"
+              title="MeuMenu App - Sistema para Delivery"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="w-full h-full"
+            ></iframe>
+          </div>
           <div className="flex flex-col sm:flex-row gap-4">
             <a 
               href="https://api.whatsapp.com/send?phone=5531992354666&text=Vim%20do%20site,%20gostaria%20de%20saber%20mais%20sobre%20o%20sistema!"
@@ -66,4 +75,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
