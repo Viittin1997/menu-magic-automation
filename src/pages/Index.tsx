@@ -8,6 +8,7 @@ import Testimonials from "@/components/Testimonials";
 import Header from "@/components/Header";
 import CTABanner from "@/components/CTABanner";
 import Footer from "@/components/Footer";
+import LeadCaptureForm from "@/components/LeadCaptureForm";
 
 const Index = () => {
   return (
@@ -19,6 +20,7 @@ const Index = () => {
         <CTABanner />
         <Features />
         <Testimonials />
+        <LeadCaptureForm />
         <Pricing />
         <FAQ />
       </main>
