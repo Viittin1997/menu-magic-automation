@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { toast } from "sonner";
+import { Card, CardHeader, CardContent } from "@/components/ui/card";
 
 const LeadCaptureForm = () => {
   const [loading, setLoading] = useState(false);
@@ -45,53 +46,59 @@ const LeadCaptureForm = () => {
   return (
     <section className="py-16 px-4 bg-white">
       <div className="container mx-auto max-w-md">
-        <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Quer saber mais?
-          </h2>
-          <p className="text-gray-600">
-            Preencha o formulário abaixo e nossa equipe entrará em contato!
-          </p>
-        </div>
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <div>
-            <Input
-              type="text"
-              placeholder="Seu nome"
-              required
-              value={formData.name}
-              onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-              className="w-full"
-            />
-          </div>
-          <div>
-            <Input
-              type="tel"
-              placeholder="Seu WhatsApp"
-              required
-              value={formData.whatsapp}
-              onChange={(e) => setFormData({ ...formData, whatsapp: e.target.value })}
-              className="w-full"
-            />
-          </div>
-          <div>
-            <Input
-              type="text"
-              placeholder="Nome do seu estabelecimento"
-              required
-              value={formData.businessName}
-              onChange={(e) => setFormData({ ...formData, businessName: e.target.value })}
-              className="w-full"
-            />
-          </div>
-          <Button
-            type="submit"
-            className="w-full bg-green-700 hover:bg-green-800 text-white"
-            disabled={loading}
-          >
-            {loading ? "Enviando..." : "Enviar dados"}
-          </Button>
-        </form>
+        <Card className="shadow-lg border-2 border-gray-100">
+          <CardHeader>
+            <div className="text-center">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Quer saber mais?
+              </h2>
+              <p className="text-gray-600">
+                Preencha o formulário abaixo e nossa equipe entrará em contato!
+              </p>
+            </div>
+          </CardHeader>
+          <CardContent>
+            <form onSubmit={handleSubmit} className="space-y-4">
+              <div>
+                <Input
+                  type="text"
+                  placeholder="Seu nome"
+                  required
+                  value={formData.name}
+                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                  className="w-full"
+                />
+              </div>
+              <div>
+                <Input
+                  type="tel"
+                  placeholder="Seu WhatsApp"
+                  required
+                  value={formData.whatsapp}
+                  onChange={(e) => setFormData({ ...formData, whatsapp: e.target.value })}
+                  className="w-full"
+                />
+              </div>
+              <div>
+                <Input
+                  type="text"
+                  placeholder="Nome do seu estabelecimento"
+                  required
+                  value={formData.businessName}
+                  onChange={(e) => setFormData({ ...formData, businessName: e.target.value })}
+                  className="w-full"
+                />
+              </div>
+              <Button
+                type="submit"
+                className="w-full bg-green-700 hover:bg-green-800 text-white"
+                disabled={loading}
+              >
+                {loading ? "Enviando..." : "Enviar dados"}
+              </Button>
+            </form>
+          </CardContent>
+        </Card>
       </div>
     </section>
   );
