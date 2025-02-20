@@ -18,7 +18,7 @@ const LeadCaptureForm = () => {
     setLoading(true);
 
     try {
-      const response = await fetch("https://edtn8n.meumenu2023.uk/webhook-test/novolead", {
+      const response = await fetch("https://whkn8n.meumenu2023.uk/webhook/novolead", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
