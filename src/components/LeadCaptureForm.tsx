@@ -32,10 +32,8 @@ const LeadCaptureForm = () => {
 
       if (response.ok) {
         // Google Ads Conversion Tracking
-        if (typeof gtag !== 'undefined') {
-          gtag('event', 'conversion', {
-            'send_to': 'AW-16884745091/6BnbCKHL8qAaEIOHo_M-'
-          });
+        if (typeof gtag_report_conversion === 'function') {
+          gtag_report_conversion();
         }
         
         toast.success("Dados enviados com sucesso! Em breve entraremos em contato.");
