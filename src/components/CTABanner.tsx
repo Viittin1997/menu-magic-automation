@@ -11,7 +11,7 @@ const CTABanner = () => {
             Pronto para automatizar seu delivery?
           </h2>
           <p className="text-xl text-white/90 max-w-2xl">
-            Experimente gratuitamente por 7 dias e veja como é fácil aumentar suas vendas com atendimento automatizado
+            Experimente gratuitamente por 10 dias e veja como é fácil aumentar suas vendas com atendimento automatizado
           </p>
           <a
             href="https://api.whatsapp.com/send?phone=5531992354666&text=Vim%20do%20site,%20gostaria%20de%20saber%20mais%20sobre%20o%20sistema!"
