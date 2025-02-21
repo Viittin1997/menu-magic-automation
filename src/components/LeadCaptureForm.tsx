@@ -32,8 +32,21 @@ const LeadCaptureForm = () => {
 
       if (response.ok) {
         // Google Ads Conversion Tracking
-        if (typeof gtag_report_conversion === 'function') {
-          gtag_report_conversion();
+        try {
+          // Verificar se a função do gtag existe
+          if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+            // Chamada direta do evento de conversão
+            window.gtag('event', 'conversion', {
+              'send_to': 'AW-16884745091/6BnbCKHL8qAaEIOHo_M-',
+              'event_callback': function() {
+                console.log('Conversion tracked successfully');
+              }
+            });
+          } else {
+            console.warn('Google Ads tracking não está disponível');
+          }
+        } catch (error) {
+          console.error('Erro ao registrar conversão:', error);
         }
         
         toast.success("Dados enviados com sucesso! Em breve entraremos em contato.");
