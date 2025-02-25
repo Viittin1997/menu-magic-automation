@@ -23,8 +23,8 @@ const Features = () => {
     },
     {
       icon: "💳",
-      title: "Pagamento online integrado",
-      description: "Seu cliente paga online pelo Pix",
+      title: "Pagamento online integrado (Em breve)",
+      description: "Sistema em fase de testes - Em breve seu cliente poderá pagar online via Pix",
     },
     {
       icon: "📊",
